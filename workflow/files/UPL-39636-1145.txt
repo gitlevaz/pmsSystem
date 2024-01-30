@@ -1,0 +1,22 @@
+mater package and iner package 
+
+master case (box), inner case, QTY FOR MASTER CASE AND INNER CASE/USE STANDARD INTERNATIONAL TERMINOLOGIES 
+
+fEILDS THAT THAT NEEDS TO BE COME FOR dRY INVETSORY - sTANDARD INVENTORY MODULE
+
+cOLOR LEGEND FOR lss CATEGORIES AT THE LABEL PRINTING PAGE - WITH A FILTER
+
+sHIPPING INCOMING COUNTRY
+
+tAKE INCOMING SHIPMENT INFO FROM PO
+
+planning 7 days in advance
+
+PO ---> Tanks Plan --> Shpment comming--> unpack shipment ---> modify pln ---> validate once add to the tank
+
+
+start B2B and B2C  -1 week fromtoday
+
+Andryas Heyjact / Tom lawrance 
+
+Equipment integration - To product Scope

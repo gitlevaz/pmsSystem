@@ -1,0 +1,359 @@
+/* 
+    Document   : project
+    Created on : Apr 21, 2011, 9:13:13 AM
+    Author     : Prajapriya
+    Description: Purpose of the stylesheet follows.
+*/
+
+#containerc {
+    width: 1024px;
+    height: 700px;
+    min-height: 6px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+}
+#Centeredc {
+    position: relative;
+    width: 1024px;
+    height: 100%;
+    min-height: 530px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+}
+.body {/*
+    width:726px;
+    height: 100%;
+    min-height: 530px;
+    border:2px solid #9ac1c9;
+    border-top:none;
+    padding:15px;*/
+/*    background-image: url(../images/content.gif);
+    background-repeat: repeat;*/
+}
+#Div-Form_logo {
+    position: absolute;
+    left: 680px;
+    top: 3px;
+}
+.logo {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../images/logo-pdf.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:80px;
+    height:45px;
+    position: absolute;
+}
+#Div-Form_Back {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#Div-Form_Add {
+    position: absolute;
+    left: 550px;
+    top: 10px;
+}
+#Div-Form_Edit {
+    position: absolute;
+    left: 600px;
+    top: 10px;
+}
+#Div-Form_Del {
+    position: absolute;
+    left: 650px;
+    top: 10px;
+}
+#Div-Form_Print {
+    position: absolute;
+    left: 700px;
+    top: 10px;
+}
+#Div-Form_Search {
+    position: absolute;
+    left: 500px;
+    top: 10px;    
+}
+#div-lbl_DivCode {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 20px;
+	top: 120px;
+}
+#Div-txt_DivCode {
+	position: absolute;
+	left: 200px;
+	top: 115px;
+}
+#div-lbl_ProCode {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 20px;
+	top: 150px;
+}
+#Div-txt_ProCode {
+	position: absolute;
+	left: 200px;
+	top: 145px;
+}
+#div-lbl_ProName {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 20px;
+	top: 180px;
+}
+#Div-txt_ProName {
+	position: absolute;
+	left: 200px;
+	top: 175px;
+}
+#div-lbl_StartDate {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 20px;
+	top: 210px;
+}
+#Div-txt_StartDate {
+	position: absolute;
+	left: 200px;
+	top: 205px;
+}
+
+#div-lbl_EndDate {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 20px;
+	top: 240px;
+}
+#Div-txt_EndDate {
+	position: absolute;
+	left: 200px;
+	top: 235px;
+}
+
+#div-lbl_AssignUser {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 20px;
+	top: 330px;
+}
+#Div-txt_AssignUser {
+	position: absolute;
+	left: 200px;
+	top: 328px;
+}
+
+#div-lbl_Department {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 20px;
+	top: 270px;
+}
+#Div-txt_Department {
+	position: absolute;
+	left: 200px;
+	top: 268px;
+}
+
+#div-lbl_ProjectInit {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 20px;
+	top: 300px;
+}
+#Div-txt_ProjectInit {
+	position: absolute;
+	left: 200px;
+	top: 298px;
+}
+
+#div-lbl_SecondOwner {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 20px;
+	top: 360px;
+}
+#Div-txt_SecondOwner {
+	position: absolute;
+	left: 200px;
+	top: 358px;
+}
+
+#div-lbl_Supporter {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 20px;
+	top: 390px;
+}
+#Div-txt_Supporter {
+	position: absolute;
+	left: 200px;
+	top: 388px;
+}
+
+#Div-txt_Upload {
+	position: relative;
+	left: 20px;
+	top: 420px;
+    width: 700px;
+}
+
+#Div-txt_Download {
+    width: 280px;
+    height: 150px;
+    overflow: auto;
+    display:block;
+    padding-left: 5px;
+    border-width: 1px;
+	border-style: solid;
+	border-color: #000066;
+}
+
+#Div-pannel {
+	position: relative;
+    width: 200px;
+    height:30px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    top: 420px;
+}
+.buttonSave {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:12px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../images/submit.png);
+    border: medium none;
+    cursor: pointer;
+    width:100px;
+    height:25px;
+    position: absolute;
+    left: 10px;
+}
+.buttonCancel {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:12px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../images/submit.png);
+    border: medium none;
+    cursor: pointer;
+    width:100px;
+    height:25px;
+    position: absolute;
+    left: 110px;
+}
+.buttonDot {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size:13px;
+  color: #000000;
+  background-color: transparent;
+  background-image: url('../images/dot.png');
+  border: medium none;
+  cursor: pointer;
+  width:39px;
+  height:22px;
+}
+.Div-Msg {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000066;
+    font-family: Verdana, Geneva, sans-serif;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    width: 500px;
+    height: 26px;
+}
+.Div-Error {
+    font-size: 12px;
+    color: #FF0000;
+    font-family: Verdana, Geneva, sans-serif;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    width: 500px;
+    height: 26px;
+}
+
+

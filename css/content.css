@@ -1,0 +1,60 @@
+/* 
+    Document   : content
+    Created on : Apr 20, 2011, 5:24:23 PM
+    Author     : Prajapriya
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#containerc {
+    width: 768px;
+    height: 100%;
+    min-height: 530px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+}
+#Centeredc {
+    position: relative;
+    width: 768px;
+    height: 100%;
+    min-height: 530px;
+/*    height:500px;*/
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+}
+.body {
+    width:726px;
+    height: 100%;
+    min-height: 530px;
+    border:2px solid #9ac1c9;
+    border-top:none;
+    padding:15px;
+    background-image: url(../images/content.gif);
+    background-repeat: repeat;
+}
+#CompName {
+    position: absolute;
+    width: 400px;
+}
+#Div-Form_logo {
+    position: absolute;
+    left: 680px;
+    top: 3px;
+}
+.logo {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:0px;
+	color: #000000;
+	background-color: transparent;
+	background-image: url(../images/logo-pdf.png);
+        background-repeat: no-repeat;
+	border: medium none;
+	cursor: pointer;
+	width:80px;
+	height:45px;
+	position: absolute;
+}
+

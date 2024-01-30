@@ -1,0 +1,109 @@
+@charset "utf-8";
+.Div-TxtStyle {
+	/*font-family: Century Gothic;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #000066;*/
+        /*font-family:century gothic;
+        font-size: 13px;
+	border: 1px solid #3366FF;
+	border-left: 4px solid #3366FF;*/
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 12px;
+        color: #000066;
+        background-color : #ffffff;
+	/*border: 1px solid #000066;*/
+        order-color: silver;
+        color: #000066;
+        border: 1px ;
+        border-style: groove;       
+}
+
+.Div-TxtStyleNormal {
+	/*font-family: Century Gothic;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #000066;*/
+        /*font-family:century gothic;
+        font-size: 13px;
+	border: 1px solid #3366FF;
+	border-left: 4px solid #3366FF;*/
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 12px;
+        color: #000066;
+}
+
+.TextBoxStyle {
+	/*background-image:url(images/form_bg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	color:#000066;
+	padding:3px;
+	margin-right:4px;
+	margin-bottom:8px;*/
+	font-family: Verdana, Geneva, sans-serif;
+        font-size: 12px;
+        color: #000066;
+        background-color : #ffffff;
+        border: 1px solid #000066;
+        border-radius: 4px; 
+        -moz-border-radius: 4px; 
+        -webkit-border-radius: 4px; 
+        border-color: silver;
+        color: #000066;
+        border: 1.2px ;
+        border-style: groove;             
+        height:18px;    
+        padding-left:5px;    
+        padding-right:0px;   
+}
+.TextAreaStyle {
+	/*background-image:url(images/form_bg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	color:#000066;
+	padding:3px;
+	margin-right:4px;
+	margin-bottom:8px;*/
+	font-family: Verdana, Geneva, sans-serif;
+        font-size: 12px;
+        color: #000066;
+        background-color : #ffffff;
+        border: 1px solid #000066;
+        border-radius: 4px; 
+        -moz-border-radius: 4px; 
+        -webkit-border-radius: 4px; 
+        border-color: silver;
+        color: #000066;
+        border: 1.2px ;
+        border-style: groove;        
+        padding-left:5px;    
+        padding-right:0px;   
+}
+.NumberStyle {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #000066;
+	text-align: right;
+	font-weight: bold;
+}
+
+.ReadStyle {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #000099;
+	background-color: #FFFFCC;
+}
+
+radio{
+    border: 0;
+    background-color: #0000FF;
+}
+
+

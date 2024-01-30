@@ -1,0 +1,174 @@
+/* 
+    Document   : crtAccess
+    Created on : May 6, 2011, 9:42:25 AM
+    Author     : shameera
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#containerc {
+    width: 768px;
+    height: 100%;
+    min-height: 6px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+}
+#Centeredc {
+    position: relative;
+    width: 768px;
+    height: 100%;
+    min-height: 530px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+}
+.body {
+    width:726px;
+    height: 100%;
+    min-height: 530px;
+    border:2px solid #9ac1c9;
+    border-top:none;
+    padding:15px;
+/*    background-image: url(../images/content.gif);
+    background-repeat: repeat;*/
+}
+#Div-Form_logo {
+    position: absolute;
+    left: 680px;
+    top: 3px;
+}
+.logo {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../images/logo-pdf.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:80px;
+    height:45px;
+    position: absolute;
+}
+#Div-Form_Back {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#Div-Form_Add {
+    position: absolute;
+    left: 550px;
+    top: 10px;
+}
+#Div-Form_Edit {
+    position: absolute;
+    left: 600px;
+    top: 10px;
+}
+#Div-Form_Del {
+    position: absolute;
+    left: 650px;
+    top: 10px;
+}
+#Div-Form_Print {
+    position: absolute;
+    left: 700px;
+    top: 10px;
+}
+#Div-Form_Search {
+    position: absolute;
+    left: 500px;
+    top: 10px;
+}
+#div-lbl_GrpCode {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 20px;
+	top: 120px;
+}
+#Div-txt_GrpCode {
+	position: absolute;
+	left: 200px;
+	top: 120px;
+}
+#div-lbl_AccessPoints {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 20px;
+	top: 150px;
+}
+#Div-txt_AccessPoints {
+	position: absolute;
+	left: 20px;
+	top: 180px;
+}
+
+#div-lbl_GrantPoints {
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	color: #000066;
+	left: 500px;
+	top: 150px;
+}
+#Div-txt_GrantPoints {
+	position: absolute;
+	left: 500px;
+	top: 180px;
+}
+.Div-btn_Add {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size:13px;
+        color: #000000;
+        background-color: transparent;
+        background-image: url('../images/dot.png');
+        border: medium none;
+        cursor: pointer;
+        width:39px;
+        height:22px;
+	position: absolute;
+	left: 330px;
+	top: 250px;
+}
+.Div-btn_Remove {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size:13px;
+        color: #000000;
+        background-color: transparent;
+        background-image: url('../images/dot.png');
+        border: medium none;
+        cursor: pointer;
+        width:39px;
+        height:22px;
+	position: absolute;
+	position: absolute;
+	left: 330px;
+	top: 300px;
+}

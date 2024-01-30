@@ -1,0 +1,3 @@
+Approval 	-	Supplier Acceptance	
+SMS SENT	-	YES / NO
+MAIL SENT	-	YES / NO

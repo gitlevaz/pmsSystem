@@ -1,0 +1,11 @@
+HTTP GET
+Supported in GpsGate Server 2.0.6 and later. By default port 8008 is used. Only commands from the
+tracker to server can use HTTP. The respons body contans the server reply ($FRRET).
+Commands sent over HTTP do not need any checksum. Both commands with and without checksum is
+accepted by the server.
+Syntax:
+http://hostname:8008/GpsGate/?cmd=$FRCMD...
+Example:
+http://online.gpsgate.com:8008/GpsGate/?
+cmd=$FRCMD,353857014816785,_SendMessage,,4748.00000,N,3530.00000,E,34.6,234,90,170109,
+120523.657,1

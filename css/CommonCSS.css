@@ -1,0 +1,218 @@
+﻿/*
+Title   : CSS for Tropical Fish (PVT) Ltd (VIPMO)
+Author  : Viraga
+Version : 2011/10/10
+*/
+
+body 
+{
+
+    font-family:Verdana;
+}
+
+hr
+{
+    border-width:3px;
+    border-color:#2554C7;
+    border-style:solid;
+}
+#dataPanal
+{
+    background-position:bottom;
+    background-image:url('images/DataPanal.png');
+	background-repeat:no-repeat;
+	min-height:680px;
+}
+
+.header { 
+	font-size:20px;
+	color:#151B8D;
+	font-weight:bold;
+    padding-left:50px;
+}
+
+.menu { 
+	font-size:15px;
+	color:#151B8D;
+	font-weight:bold;
+}
+
+.button
+{
+    background-color:#6698FF;
+    color:#151B8D;
+    border-style:groove;    
+    font-weight:bold;
+    background:url(images/Button.png) left top repeat-x;
+    height:28px;
+              
+    /*color:#357EC7;
+    
+    font-weight:bold;
+    border-radius: 8px;*/
+}
+
+h5
+{
+    font-size:13px;
+    color:#151B8D;
+}
+
+fieldset
+{
+    
+    border:2px solid #736AFF;
+    /*border-style: solid;
+     border-width: 2px;
+	-moz-border-radius: 20px;
+  	-webkit-border-radius: 20px;
+  	-khtml-border-radius: 20px;
+  	border-radius: 20px;
+  	behavior: url(border-radius.htc);
+    
+    width:605px;
+    margin-bottom:20px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;*/
+}
+
+.errMsg
+{
+    color:Red;
+}
+
+.sucMsg
+{
+    color:#151B8D;
+}
+
+legend
+{
+    font-size:15px;
+    color:#2B60DE;
+    font-weight:bold;
+}
+
+#loading
+{
+    display:block;
+
+    /*set the div in the center of the screen*/
+    position:fixed;
+    top:40%;
+    left:50%;
+    /*border-style:dashed;
+    border-width:2px;
+    border-color:#1589FF;*/
+    
+}
+
+.listBox
+{
+    background-color:#A0CFEC;
+    border-radius: 10px;
+    height:auto;
+    width:auto;
+	/*-moz-border-radius: 20px;
+  	-webkit-border-radius: 20px;
+  	-khtml-border-radius: 20px;
+  	border-radius: 20px;
+  	behavior: url(border-radius.htc);*/
+}
+
+ .fieldsetclass{
+    /* background-color:#ADDFFF;*/
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#ADDFFF');
+    margin: 0px auto;
+    border-color: #fff9e1;
+ }
+ 
+ .datePicker
+ {
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#ADDFFF');
+    margin: 0px auto;
+    border-color: #357EC7;
+    border-style:solid;
+    border-width:1px;
+ }
+
+.dgStyle
+{
+
+}
+.dgHeader
+{
+    background-color:#488AC7;
+    color:White;
+    font-weight:bold;
+    border-width:2px;
+}
+
+.dgSelectRow
+{
+    color:#153E7E;
+    font-weight:bold;
+    background-color:#B7CEEC;
+}
+.dg
+{
+    border-color:#488AC7;
+    border-width:2px;
+    border-style:solid;
+}
+.textboxStyle
+{
+    -moz-border-radius: 8px; 
+    -webkit-border-radius: 8px; 
+    -khtml-border-radius: 8px;
+    border-radius: 8px; 
+    behavior:url(border-radius.htc) ;
+    behavior: url(css/border-radius.htc);
+    border-color: blue;
+    color: #000066;
+    border: 2px ;
+    border-style: groove;             
+    height:18px;    
+    padding-left:5px;    
+    padding-right:5px;   
+}
+
+/*AutoComplete flyout */
+
+.autocomplete_completionListElement 
+{  
+	margin : 0px!important;
+	background-color : inherit;
+	color : Black;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor : 'default';
+	overflow : auto;
+	height : 150px;
+    text-align : left; 
+    list-style-type : none;
+    width:auto;
+    font-weight:bold;
+    font-family:Verdana;
+    font-size:13px;
+    
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem
+{
+	background-color: #A0CFEC;
+	padding: 1px;
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem 
+{
+	background-color : window;
+	padding : 1px;
+}
+

@@ -1,0 +1,121 @@
+/* 
+    Document   : index
+    Created on : Apr 19, 2011, 1:28:19 PM
+    Author     : Prajapriya
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+#container {
+    min-height: 600px;
+    width: 100%;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;	
+    margin-bottom:auto;       
+}
+#Centered {
+    position: relative;
+    width: 100%;
+    height:100%;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+}
+#Div-Login {    
+    width: 500px;
+    height: 260px;  
+    background-position: top center;
+    background-image: url('../wallpapers/login-header.png');
+    background-repeat: no-repeat;
+    background-color: #E0E0DD;
+    margin-top: 100px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Div-txtUserName {	
+    font-size: 12px;    
+    position: absolute;
+    height: 17px;
+    width: 100px;
+    left: 10px;
+    top: 50px;
+    color: #000066;
+    font-family: Verdana, Geneva, sans-serif;
+}
+#Div-UserName {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    width: 175px;
+    height: 20px;
+    color: #000066;
+    left: 100px;
+    top: 45px;
+}
+#Div-txtPassword {	
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    height: 17px;
+    width: 100px;
+    left: 10px;
+    top: 85px;
+    color: #000066;
+    font-family: Verdana, Geneva, sans-serif;
+}
+#Div-Password {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    width: 172px;
+    height: 21px;
+    color: #000066;
+}
+.buttonSubmit {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:12px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../images/submit.png);
+    border: medium none;
+    cursor: auto;
+    width:100px;
+    height:25px;    
+    
+}
+.buttonCancel {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:12px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../images/submit.png);
+    border: medium none;
+    cursor: auto;
+    width:100px;
+    height:25px;
+    position: absolute;
+    left: 120px;
+    top: 120px;
+}
+.Div-MsgError {
+    font-size: 12px;
+    color: #FF0000;
+    font-family: Verdana;    
+    
+}

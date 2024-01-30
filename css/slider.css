@@ -1,0 +1,269 @@
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px
+}
+#slider {
+    width:250px
+}
+.header {
+    font-family: Verdana, Geneva, sans-serif;
+    width:224px;
+    border:2px solid #9ac1c9;
+    padding:8px;
+    font-weight:bold;
+    margin-top:10px;
+    cursor:pointer;
+    color: #000066;
+    background:url(../images/header.gif)
+}
+.Title {
+    font-family: Verdana, Geneva, sans-serif;
+    width:224px;
+    border:2px solid #9ac1c9;
+    padding:8px;
+    font-weight:bold;
+    margin-top:10px;
+    color: #000066;
+    background:url(../images/header.gif)
+}
+.Application {
+    font-family: Verdana, Geneva, sans-serif;
+    width:740px;
+    border:2px solid #9ac1c9;
+    padding:8px;
+    font-weight:bold;
+    margin-top:10px;
+    color: #000066;
+    background:url(../images/header.gif)
+}
+.header:hover {
+    background:url(../images/header_over.gif)
+}
+.content {
+    overflow:hidden
+}
+.text {
+    width:210px;   
+    border:2px solid #9ac1c9;
+    border-top:none;
+    padding:15px;
+    background-image: url(../images/menuebg.gif);/*
+    background-repeat: repeat;*/
+}
+.text1 {
+    width:210px;
+/*    height: 100%;
+    min-height: 600px;*/
+    border:2px solid #9ac1c9;
+    border-top:none;
+    padding:15px;
+/*    background-image: url(../images/content.gif);
+    background-repeat: repeat;*/
+}
+#container {
+    width: 100%;
+    height: 100%;
+    min-height: 530px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+}
+#Centered {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 530px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+}
+.contentfields{
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.MenuImg {
+    font-family: Verdana, Geneva, sans-serif;
+    width:200px;
+    height: 10px;
+    border:0px solid #9ac1c9;
+    padding:2px;
+    font-weight:bold;
+    margin-top:0px;
+    color: #000066;
+/*    background:url(../images/menu.gif);*/
+    background-repeat: no-repeat;
+/*    text-indent: 20%;*/
+    cursor: pointer;
+}
+.MenuImg:hover {
+/*    background:url(../images/menuhover.gif);*/
+    width:200px;
+    height: 10px;
+    padding:2px;
+    background-repeat: no-repeat;
+/*    text-indent: 20%;*/
+    cursor: pointer;
+}
+.buttonEdit {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../toolbar/edit.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;
+}
+.buttonDEdit {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../toolbar/Dedit.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;    
+}
+.buttonPrint {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../toolbar/print.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;    
+}
+.buttonDPrint {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../toolbar/Dprint.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;    
+}
+.buttonBack {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../toolbar/Back.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;    
+}
+.buttonQuot {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../toolbar/archives.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;    
+}
+.buttonAdd {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../toolbar/Add.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;    
+}
+.buttonDAdd {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../toolbar/DAdd.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;    
+}
+.buttonApp {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../toolbar/hire-me.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;   
+}
+.buttonDApp {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../toolbar/Dhire-me.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;    
+}
+.buttonDel {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../toolbar/Del.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;    
+}
+.buttonDDel {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:0px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url(../toolbar/DDel.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;    
+}
+.buttonSearch {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:13px;
+    color: #000000;
+    background-color: transparent;
+    background-image: url('../toolbar/library.png');
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    width:24px;
+    height:24px;
+}

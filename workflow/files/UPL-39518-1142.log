@@ -1,0 +1,124 @@
+2017-06-19 09:00:00,369 INFO  Starting Dashboard email generate process...
+ 
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 33 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:33) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 10:00:00,324 INFO  Starting Dashboard email generate process...
+ 
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 33 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:33) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 10:00:02,543 ERROR select distinct m.ciscode as CISCode, pl.description as Description, sum(convert(int,pl.qty)) as AssignedQty, sum(convert(int,pl.shipped_qty)) as ShippedQty from tbl_purchaseorderheader ph, tbl_purchaseorderLineItem pl, tbl_product_mapping m,  tbl_customer_mapping cp, t_stationplan tp, t_containerheader t where ph.poid = tp.poid and ph.ponumber = t.ponumber and ph.poid = pl.poid and pl.sku = m.sku and ph.vendorID = cp.externalid and cp.internalid = m.customercode and tp.stationAssignid = '23115' and tp.dateassign ='2017-06-19' and t.updateddate >= '2017-06-19 09:00:02' and t.updateddate <='2017-06-19 10:00:02'group by m.ciscode, pl.description 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at DashBoard_AutoEmail.Program.createDBEmailBody() in E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:line 207
+
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 216 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:216) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 11:00:00,374 INFO  Starting Dashboard email generate process...
+ 
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 33 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:33) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 11:00:02,343 ERROR select distinct m.ciscode as CISCode, pl.description as Description, sum(convert(int,pl.qty)) as AssignedQty, sum(convert(int,pl.shipped_qty)) as ShippedQty from tbl_purchaseorderheader ph, tbl_purchaseorderLineItem pl, tbl_product_mapping m,  tbl_customer_mapping cp, t_stationplan tp, t_containerheader t where ph.poid = tp.poid and ph.ponumber = t.ponumber and ph.poid = pl.poid and pl.sku = m.sku and ph.vendorID = cp.externalid and cp.internalid = m.customercode and tp.stationAssignid = '23115' and tp.dateassign ='2017-06-19' and t.updateddate >= '2017-06-19 10:00:02' and t.updateddate <='2017-06-19 11:00:02'group by m.ciscode, pl.description 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at DashBoard_AutoEmail.Program.createDBEmailBody() in E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:line 207
+
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 216 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:216) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 12:00:00,287 INFO  Starting Dashboard email generate process...
+ 
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 33 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:33) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 12:00:02,351 ERROR select distinct m.ciscode as CISCode, pl.description as Description, sum(convert(int,pl.qty)) as AssignedQty, sum(convert(int,pl.shipped_qty)) as ShippedQty from tbl_purchaseorderheader ph, tbl_purchaseorderLineItem pl, tbl_product_mapping m,  tbl_customer_mapping cp, t_stationplan tp, t_containerheader t where ph.poid = tp.poid and ph.ponumber = t.ponumber and ph.poid = pl.poid and pl.sku = m.sku and ph.vendorID = cp.externalid and cp.internalid = m.customercode and tp.stationAssignid = '23115' and tp.dateassign ='2017-06-19' and t.updateddate >= '2017-06-19 11:00:02' and t.updateddate <='2017-06-19 12:00:02'group by m.ciscode, pl.description 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at DashBoard_AutoEmail.Program.createDBEmailBody() in E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:line 207
+
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 216 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:216) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 13:00:00,348 INFO  Starting Dashboard email generate process...
+ 
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 33 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:33) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 13:00:02,067 ERROR select distinct m.ciscode as CISCode, pl.description as Description, sum(convert(int,pl.qty)) as AssignedQty, sum(convert(int,pl.shipped_qty)) as ShippedQty from tbl_purchaseorderheader ph, tbl_purchaseorderLineItem pl, tbl_product_mapping m,  tbl_customer_mapping cp, t_stationplan tp, t_containerheader t where ph.poid = tp.poid and ph.ponumber = t.ponumber and ph.poid = pl.poid and pl.sku = m.sku and ph.vendorID = cp.externalid and cp.internalid = m.customercode and tp.stationAssignid = '23115' and tp.dateassign ='2017-06-19' and t.updateddate >= '2017-06-19 12:00:02' and t.updateddate <='2017-06-19 13:00:02'group by m.ciscode, pl.description 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at DashBoard_AutoEmail.Program.createDBEmailBody() in E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:line 207
+
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 216 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:216) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 14:00:00,299 INFO  Starting Dashboard email generate process...
+ 
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 33 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:33) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 14:00:03,784 ERROR select distinct m.ciscode as CISCode, pl.description as Description, sum(convert(int,pl.qty)) as AssignedQty, sum(convert(int,pl.shipped_qty)) as ShippedQty from tbl_purchaseorderheader ph, tbl_purchaseorderLineItem pl, tbl_product_mapping m,  tbl_customer_mapping cp, t_stationplan tp, t_containerheader t where ph.poid = tp.poid and ph.ponumber = t.ponumber and ph.poid = pl.poid and pl.sku = m.sku and ph.vendorID = cp.externalid and cp.internalid = m.customercode and tp.stationAssignid = '23115' and tp.dateassign ='2017-06-19' and t.updateddate >= '2017-06-19 13:00:03' and t.updateddate <='2017-06-19 14:00:03'group by m.ciscode, pl.description 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at DashBoard_AutoEmail.Program.createDBEmailBody() in E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:line 207
+
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 216 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:216) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 15:00:00,349 INFO  Starting Dashboard email generate process...
+ 
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 33 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:33) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 15:00:03,568 ERROR select distinct m.ciscode as CISCode, pl.description as Description, sum(convert(int,pl.qty)) as AssignedQty, sum(convert(int,pl.shipped_qty)) as ShippedQty from tbl_purchaseorderheader ph, tbl_purchaseorderLineItem pl, tbl_product_mapping m,  tbl_customer_mapping cp, t_stationplan tp, t_containerheader t where ph.poid = tp.poid and ph.ponumber = t.ponumber and ph.poid = pl.poid and pl.sku = m.sku and ph.vendorID = cp.externalid and cp.internalid = m.customercode and tp.stationAssignid = '23115' and tp.dateassign ='2017-06-19' and t.updateddate >= '2017-06-19 14:00:03' and t.updateddate <='2017-06-19 15:00:03'group by m.ciscode, pl.description 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at DashBoard_AutoEmail.Program.createDBEmailBody() in E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:line 207
+
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 216 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:216) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 16:00:02,380 INFO  Starting Dashboard email generate process...
+ 
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 33 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:33) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 16:00:08,208 ERROR select distinct m.ciscode as CISCode, pl.description as Description, sum(convert(int,pl.qty)) as AssignedQty, sum(convert(int,pl.shipped_qty)) as ShippedQty from tbl_purchaseorderheader ph, tbl_purchaseorderLineItem pl, tbl_product_mapping m,  tbl_customer_mapping cp, t_stationplan tp, t_containerheader t where ph.poid = tp.poid and ph.ponumber = t.ponumber and ph.poid = pl.poid and pl.sku = m.sku and ph.vendorID = cp.externalid and cp.internalid = m.customercode and tp.stationAssignid = '23115' and tp.dateassign ='2017-06-19' and t.updateddate >= '2017-06-19 15:00:07' and t.updateddate <='2017-06-19 16:00:07'group by m.ciscode, pl.description 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at DashBoard_AutoEmail.Program.createDBEmailBody() in E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:line 207
+
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 216 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:216) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 17:00:07,974 INFO  Starting Dashboard email generate process...
+ 
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 33 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:33) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 17:00:10,474 ERROR select distinct m.ciscode as CISCode, pl.description as Description, sum(convert(int,pl.qty)) as AssignedQty, sum(convert(int,pl.shipped_qty)) as ShippedQty from tbl_purchaseorderheader ph, tbl_purchaseorderLineItem pl, tbl_product_mapping m,  tbl_customer_mapping cp, t_stationplan tp, t_containerheader t where ph.poid = tp.poid and ph.ponumber = t.ponumber and ph.poid = pl.poid and pl.sku = m.sku and ph.vendorID = cp.externalid and cp.internalid = m.customercode and tp.stationAssignid = '23115' and tp.dateassign ='2017-06-19' and t.updateddate >= '2017-06-19 16:00:10' and t.updateddate <='2017-06-19 17:00:10'group by m.ciscode, pl.description 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at DashBoard_AutoEmail.Program.createDBEmailBody() in E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:line 207
+
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 216 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:216) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 18:03:12,051 INFO  Starting Dashboard email generate process...
+ 
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 33 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:33) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 18:05:49,371 ERROR select distinct m.ciscode as CISCode, pl.description as Description, sum(convert(int,pl.qty)) as AssignedQty, sum(convert(int,pl.shipped_qty)) as ShippedQty from tbl_purchaseorderheader ph, tbl_purchaseorderLineItem pl, tbl_product_mapping m,  tbl_customer_mapping cp, t_stationplan tp, t_containerheader t where ph.poid = tp.poid and ph.ponumber = t.ponumber and ph.poid = pl.poid and pl.sku = m.sku and ph.vendorID = cp.externalid and cp.internalid = m.customercode and tp.stationAssignid = '23115' and tp.dateassign ='2017-06-19' and t.updateddate >= '2017-06-19 17:05:46' and t.updateddate <='2017-06-19 18:05:46'group by m.ciscode, pl.description 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at DashBoard_AutoEmail.Program.createDBEmailBody() in E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:line 207
+
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 216 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:216) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 22:42:19,511 INFO  Starting Dashboard email generate process...
+ 
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 33 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:33) DashBoard_AutoEmail.Program stack 
+
+2017-06-19 22:42:21,417 ERROR select distinct m.ciscode as CISCode, pl.description as Description, sum(convert(int,pl.qty)) as AssignedQty, sum(convert(int,pl.shipped_qty)) as ShippedQty from tbl_purchaseorderheader ph, tbl_purchaseorderLineItem pl, tbl_product_mapping m,  tbl_customer_mapping cp, t_stationplan tp, t_containerheader t where ph.poid = tp.poid and ph.ponumber = t.ponumber and ph.poid = pl.poid and pl.sku = m.sku and ph.vendorID = cp.externalid and cp.internalid = m.customercode and tp.stationAssignid = '23115' and tp.dateassign ='2017-06-19' and t.updateddate >= '2017-06-19 21:42:21' and t.updateddate <='2017-06-19 22:42:21'group by m.ciscode, pl.description 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at DashBoard_AutoEmail.Program.createDBEmailBody() in E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:line 207
+
+  DashBoard_AutoEmail.Program E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs 216 createDBEmailBody DashBoard_AutoEmail.Program.createDBEmailBody(E:\Source\TeKSSTFS\Source\Repos\ETF_ProcessSchedule\CIS_ETFProcessSchedule\DashBoard_AutoEmail\Program.cs:216) DashBoard_AutoEmail.Program stack 
+

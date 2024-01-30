@@ -1,0 +1,210 @@
+/*
+Title   : CSS for Tropical Fish (PVT) Ltd (VIPMO)
+Author  : Viraga
+Version : 2011/10/10
+*/
+
+body
+{
+     font-family: calibri;
+     font-size:14px;
+     color:Black;
+     padding:0px;
+     margin:0px;	
+}
+
+#wrapper
+{
+    margin:0px auto;
+    width:100%;
+    min-height:400px;	
+}
+
+#header
+{
+    width:100%;
+    height:50px;
+    background-image: url(../images/top_bg.gif);
+    background-position: center;
+    background-repeat: repeat-x; 
+    background-color: transparent;  
+    color: white;
+    font-size: 14px;
+}
+
+#inHeader
+{	
+    margin:0px auto;
+    float:right;
+    padding-top:150px;
+    padding-right:10px;
+}
+
+
+#left
+{
+    width:210px;
+    height:100%;
+    position:relative;	
+    overflow:hidden;    
+}
+
+#leftTop
+{
+    width:220px;
+    min-height:400px;
+    background-image: url(../images/bg_left_frame_top.png);
+    background-repeat:no-repeat;
+    background-color: transparent;
+    z-index: -1;
+}
+
+#leftBottom
+{
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-image:url('../images/bg_left_frame.jpg');
+    background-color: #599b83;
+    z-index: 1;
+}
+
+#right
+{
+    width:auto;
+    height: auto;
+    min-height:760px;
+    margin-right:0px;
+    overflow:auto;
+    margin-left:0px;
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:0px;    
+}
+
+#footer
+{
+    height:20px; 
+    background-color: #262c40; 
+    text-align: center;
+    color: #fefefe;
+    padding-top: 5px;
+    padding-bottom: 5px;     
+}
+
+
+
+#online
+{
+     font-family:Charter Bd BT;
+     font-size:13px;
+     color:Navy;	
+}
+
+.menu{    
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.mTitle{
+    padding-top: 10px;
+    color: white;    
+    font-family:calibri;
+    font-size:14px;
+}
+
+.mMenuItem{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+    cursor: pointer;    
+    font-family:calibri;
+    font-size:14px;
+    margin-top: 10px;    
+}
+
+.mMenuItemS{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #800000;
+    cursor: pointer;    
+    font-family:calibri;
+    font-size:14px;
+    margin-top: 10px;	
+	font-weight:bold;
+	text-decoration:underline;		   
+}
+
+
+.mMenuItem:hover{
+	padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+    cursor: pointer;    
+    font-family:calibri;
+    font-size:14px;
+    margin-top: 10px; 
+	font-weight:bold;
+	cursor:pointer;
+	text-decoration:underline;  	
+}
+
+.buttonView {
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  color: #000000;
+  background-color: transparent;
+  background-image: url('../images/view.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: left;
+  border: medium none;
+  cursor: hand;
+  width:70px;
+  height:22px;
+}
+
+.buttonDot {
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  color: #000000;
+  background-color: transparent;
+  background-image: url('../images/dot.gif');
+  background-position: left;
+  background-repeat: no-repeat;
+  border: medium none;
+  cursor: hand;
+  width:39px;
+  height:23px;
+}
+
+#preloader { 
+   position: fixed; 
+   z-index: 999; 
+   width: 100%; 
+   height: 100%; 
+   background: transparent url(../images/clock.gif) no-repeat center center; 
+ }  
+
+ .focus {    border: 2px solid #AA88FF;    background-color: #FFEEAA;}
+ 
+ .Div-Msg {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000066;
+    font-family: Verdana, Geneva, sans-serif;    
+    left: auto;
+    right: 5px;
+    top: 70px;    
+}
+.Div-Error {
+    font-size: 12px;
+    color: #FF0000;
+    font-family: Verdana, Geneva, sans-serif;
+    position: relative;
+    left: auto;
+    right: 5px;
+/*    top: 70px;*/
+    width: 50%;
+    height: 40px;   
+    text-align: right;
+}
